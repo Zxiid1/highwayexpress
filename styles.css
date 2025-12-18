@@ -236,6 +236,14 @@ footer {
         margin: 30px auto;
     }
 
+    header h1 {
+        margin-bottom: 8px;  /* was large by default */
+    }
+
+    header nav {
+        margin-bottom: 0;
+    }
+
     /* INTRO SECTION */
     .intro {
         grid-template-columns: 1fr;

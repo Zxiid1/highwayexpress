@@ -1,0 +1,226 @@
+
+html {
+    height: 100%;
+    margin: 0;
+    font-family: Tahoma;
+    background-color: white;
+    text-align: center;
+}
+
+header {
+    background-color: lightgray;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    padding-bottom: 25px 0;
+    min-height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    font-family: Brush Script MT;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+main p {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+footer {
+    background-color: lightgray;
+    box-shadow: 0 -3px 8px rgba(0,0,0,0.2);
+    padding-top: 15px 0;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+
+/* INTRO HOME */
+.intro {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+
+.intro .text {
+    text-align: left;
+}
+
+.intro p {
+    line-height: 1.6;
+}
+
+.top-image img {
+    width: 90%;
+    max-height: 420px;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+
+
+
+/* SERVICES */
+.services-section {
+    padding: 80px 0 140px;
+    background: #f3f3f3;
+    margin-bottom: 80px;
+}
+
+.services-title {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 50px;
+    padding: 0 40px;
+    align-items: stretch;
+}
+
+
+
+
+/* DELI CARD */
+.deli-card {
+    background: white;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    display: grid;
+    grid-template-columns: 1fr .8fr; /* image | text */
+    overflow: hidden;
+    align-items: stretch;
+}
+
+.deli-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.deli-card p {
+    margin-bottom: 35px;
+}
+
+.deli-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-height: 360px;
+}
+
+.deli-card .text {
+    margin-top: 25px;
+}
+
+.fullmenu-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 14px 28px;
+    background: #c0392b;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+
+/* GAS CARD — IMAGE + TEXT SIDE BY SIDE */
+.gas-card {
+    background: white;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    display: grid;
+}
+
+/* GAS INFO BOX */
+.gas-info {
+    padding: 40px;
+}
+
+.gas-info h3 {
+    font-size: 1.8rem;
+}
+
+.gas-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.gas-info li {
+    padding: 6px 0;
+    font-size: 1.05rem;
+}
+
+
+
+
+/* MENU PAGE */
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+    gap: 40px; 
+    max-width: 1100px;
+    padding: 0px;
+    margin-bottom: 100px;
+}
+
+.food-card img {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.food-card {
+    background-color: #f7f7f7;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    text-align: left;
+}
+
+.menu-title {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.menu-info {
+    padding: 0 15px;
+    display: flex;
+    align-items: center; 
+}
+
+.menu-info h2 {
+    margin: 0;
+    white-space: nowrap;   /* prevents line break */
+    flex: 1;
+}
+
+.menu-info .price {
+    font-weight: bold;
+    text-align: right;
+}
+

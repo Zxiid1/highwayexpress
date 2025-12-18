@@ -224,3 +224,94 @@ footer {
     text-align: right;
 }
 
+
+
+
+
+@media (max-width: 768px) {
+
+    /* GLOBAL */
+    main p {
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    /* INTRO SECTION */
+    .intro {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        padding: 0 20px;
+    }
+
+    .intro .text {
+        text-align: center;
+    }
+
+    .top-image img {
+        width: 100%;
+        max-height: 260px;
+    }
+
+    /* SERVICES SECTION */
+    .services-section {
+        padding: 50px 0 100px;
+    }
+
+    .services-title {
+        font-size: 2rem;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        padding: 0 20px;
+    }
+
+    /* DELI CARD (image on top, text below) */
+    .deli-card {
+        grid-template-columns: 1fr;
+    }
+
+    .deli-card img {
+        max-height: 240px;
+    }
+
+    .deli-card .text {
+        margin-top: 0;
+        padding: 25px;
+        text-align: center;
+    }
+
+    .deli-card h3 {
+        margin-top: 10px;
+    }
+
+    .deli-card p {
+        margin-bottom: 20px;
+    }
+
+    .fullmenu-button {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* GAS CARD */
+    .gas-card {
+        padding: 20px;
+    }
+
+    .gas-info {
+        padding: 20px;
+    }
+
+    /* MENU PAGE */
+    .menu-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        padding: 0 20px;
+    }
+
+    .food-card img {
+        height: 220px;
+    }
+}

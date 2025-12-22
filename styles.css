@@ -233,15 +233,11 @@ footer {
     /* GLOBAL */
     main p {
         width: 90%;
-        margin: 30px auto;
+        margin: 12px auto 24px;
     }
 
     header h1 {
-        margin-bottom: 8px;  /* was large by default */
-    }
-
-    header nav {
-        margin-bottom: 0;
+        margin: 0;  /* was large by default */
     }
 
     /* INTRO SECTION */

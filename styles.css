@@ -240,6 +240,10 @@ footer {
         margin-top: 8px;
     }
 
+    nav a {
+        margin-top: 8px;
+    }
+
     /* INTRO SECTION */
     .intro {
         grid-template-columns: 1fr;

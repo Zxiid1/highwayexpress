@@ -227,17 +227,12 @@ footer {
 
 
 
-
 @media (max-width: 768px) {
 
     /* GLOBAL */
     main p {
         width: 90%;
         margin: 12px auto 24px;
-    }
-
-    header h1 {
-        margin-top: 8px;
     }
 
     nav a {

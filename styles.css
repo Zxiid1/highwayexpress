@@ -237,7 +237,7 @@ footer {
     }
 
     header h1 {
-        margin: 0;  /* was large by default */
+        margin-bottom: 8px;
     }
 
     /* INTRO SECTION */
